@@ -1,0 +1,20 @@
+[ 2015-11-05T10:10:37+08:00 ] 127.0.0.1 /Jiuye/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.026607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026915s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.015638s ]
+INFO: [ view_template ] --END-- [ RunTime:0.015900s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.129899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130222s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.014796s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.027572s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.005579s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.011423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.060065s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.017026s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017289s ]
+

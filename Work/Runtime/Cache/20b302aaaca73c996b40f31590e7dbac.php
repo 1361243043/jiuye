@@ -1,0 +1,62 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>会员信息</title>
+<link href="__PUBLIC__/Hou/css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<div class="place">
+    <span>位置：</span>
+    <ul class="placeul">
+    <li>首页</li>
+    <li>会员表</li>
+    <li>会员信息</li>
+    </ul>
+    </div>
+    
+    <div class="formbody">
+    
+    <div class="formtitle"><span>基本信息</span></div>
+    <form action='__URL__/huiyuan' method='post'>
+    <ul class="forminfo">
+    <li><i><b>用户名称:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["m_name"]); ?></i></li>
+    <li><i><b>会员类型:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["mt_name"]); ?></i></li>
+    <li><i><b>金额:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["mt_money"]); ?></i></li>
+    <li><i><b>功能:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["mt_fun"]); ?></i></li>
+    <li><i><b>注册时间:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["m_timestart"]); ?></i></li>
+    <li><i><b>到期时间:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["m_timeend"]); ?></i></li>
+    <li><i><b>联系方式:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["m_tel"]); ?></i></li>
+    <li><i><b>备注:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["m_remarks"]); ?></i></li>
+    <li><i><b>是否审核通过:&nbsp;&nbsp;&nbsp;&nbsp;</b><?php echo ($date["m_shifou"]); ?></i></li>
+    <li><i><span style="color:#0f0">1：通过 0：未通过</span></i></li>
+    <li><label>&nbsp;</label><input name="sub" type="submit" class="btn" value="返回"/></li>
+    </ul> 
+    </form>
+    </div>
+
+
+<div style="display:none"><script src='http://v7.cnzz.com/stat.php?id=155540&web_id=155540' language='JavaScript' charset='gb2312'></script></div>
+</body>
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

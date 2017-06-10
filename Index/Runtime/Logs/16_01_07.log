@@ -1,0 +1,335 @@
+[ 2016-01-07T14:12:01+08:00 ] 127.0.0.1 /jiuye/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003152s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.101359s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.045717s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.001874s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.041799s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.009635s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.034019s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.008805s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.048210s ]
+INFO: [ view_template ] --END-- [ RunTime:0.048516s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.202498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202707s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.010535s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002640s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002034s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017248s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002420s ]
+
+[ 2016-01-07T20:18:23+08:00 ] 127.0.0.1 /jiuye/index.php/Index/wangji
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004673s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003079s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 224 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005057s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005219s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.072524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072695s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002704s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002500s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002622s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011710s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003028s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003168s ]
+
+[ 2016-01-07T20:20:01+08:00 ] 127.0.0.1 /jiuye/index.php/Oneman/qiuzhi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002514s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002703s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.019671s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\jiuye\Index\Lib\Action\OnemanAction.class.php 第 117 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.030373s ]
+INFO: [ view_template ] --END-- [ RunTime:0.030612s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.078702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078953s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002864s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003070s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001740s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010861s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003194s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003396s ]
+
+[ 2016-01-07T20:20:45+08:00 ] 127.0.0.1 /jiuye/index.php/Index/index/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001688s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001876s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.007056s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.007426s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.001590s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.007572s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.009872s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.005877s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.014751s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002368s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002572s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.100312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100549s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002046s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004961s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000782s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009862s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2016-01-07T20:20:45+08:00 ] 127.0.0.1 /jiuye/index.php/Index/index/id/templates/default/js/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001986s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.005679s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004164s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.001758s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.006332s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.002892s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.005109s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.003207s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001175s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001386s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.064604s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064817s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001356s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002131s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000451s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000898s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005184s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2016-01-07T20:21:03+08:00 ] 127.0.0.1 /jiuye/index.php/Index/qiye
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001689s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001864s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 145 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001928s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002115s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.116682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116899s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001403s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003128s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000679s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007031s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001906s ]
+
+[ 2016-01-07T20:21:04+08:00 ] 127.0.0.1 /jiuye/index.php/Public/ver/
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001682s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001858s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001343s ]
+
+[ 2016-01-07T20:21:50+08:00 ] 127.0.0.1 /jiuye/index.php/Index/index/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003034s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003217s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002493s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.003919s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.000955s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004290s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000640s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.003877s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.000868s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.004141s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001069s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003177s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003317s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.057952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058116s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002734s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003027s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001833s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010280s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002791s ]
+
+[ 2016-01-07T20:21:51+08:00 ] 127.0.0.1 /jiuye/index.php/Index/index/id/templates/default/js/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005165s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004613s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.006891s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001608s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004060s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000981s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.005578s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.006741s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001156s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.009664s ]
+INFO: [ view_template ] --END-- [ RunTime:0.009908s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.063154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063373s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002765s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002076s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002042s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009585s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002632s ]
+
+[ 2016-01-07T20:22:12+08:00 ] 127.0.0.1 /jiuye/index.php/Pinren/pin
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004131s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004426s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.004487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004828s ]
+NOTIC: [8] Undefined index:  post D:\xampp\htdocs\jiuye\Index\Lib\Action\PinrenAction.class.php 第 16 行.
+NOTIC: [8] Undefined index:  money D:\xampp\htdocs\jiuye\Index\Lib\Action\PinrenAction.class.php 第 22 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\jiuye\Index\Lib\Action\PinrenAction.class.php 第 30 行.
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.004412s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_applyjob` LIMIT 1   [ RunTime:0.012158s ]
+SQL: SELECT * FROM `w_applyjob` WHERE ( 1 ) LIMIT 0,6   [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.004332s ]
+SQL: SELECT * FROM `w_applyjob` GROUP BY aj_post ORDER BY aj_post desc  [ RunTime:0.011836s ]
+SQL: SELECT * FROM `w_applyjob` GROUP BY aj_money ORDER BY aj_money desc  [ RunTime:0.001588s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002471s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002615s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Runtime\Cache\f1f690e007cbedf286c0c58061171ae8.php 第 90 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.078723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078984s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002884s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002098s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001717s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009768s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002983s ]
+
+[ 2016-01-07T20:22:15+08:00 ] 127.0.0.1 /jiuye/index.php/Index/index/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001741s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001920s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002463s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.004294s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004499s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000946s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.003797s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.001332s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.004649s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001073s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001559s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.050017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050181s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001299s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000711s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000450s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003721s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001137s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2016-01-07T20:22:15+08:00 ] 127.0.0.1 /jiuye/index.php/Index/index/id/templates/default/js/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002358s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002623s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002085s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.005651s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004002s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000904s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.004328s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.001190s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.004276s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001003s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001024s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001257s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.065065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065249s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001311s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000714s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000900s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004485s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001620s ]
+

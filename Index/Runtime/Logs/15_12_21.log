@@ -1,0 +1,900 @@
+[ 2015-12-21T17:37:35+08:00 ] 127.0.0.1 /Jiuyework/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.039458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.039744s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.048554s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.040683s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.001144s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.054290s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.010421s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.045410s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.009606s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.043227s ]
+INFO: [ view_template ] --END-- [ RunTime:0.043463s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.245571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.245891s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002711s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.014295s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.011394s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031128s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002296s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002444s ]
+
+[ 2015-12-21T17:37:57+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.012630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012926s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003323s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.004818s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' and u_pwd=12345678 ) LIMIT 1   [ RunTime:0.001533s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005525s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005802s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.083183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083460s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001558s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001382s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001141s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006034s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001944s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002074s ]
+
+[ 2015-12-21T17:37:58+08:00 ] 127.0.0.1 /Jiuyework/index.php/User/user
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002366s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001166s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000672s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000819s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018237s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000712s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000726s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000479s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000877s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003197s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001792s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002044s ]
+
+[ 2015-12-21T17:37:59+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002558s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002828s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003085s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.004399s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.002066s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004477s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.002488s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.004438s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.002953s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.004362s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001779s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002188s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002414s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.056658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056875s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001675s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000852s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000468s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000907s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004343s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001284s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2015-12-21T17:37:59+08:00 ] ERR: (ThinkException) 非法操作:templates
+[ 2015-12-21T17:38:18+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001719s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001945s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001323s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.004071s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' and u_pwd=2222222 ) LIMIT 1   [ RunTime:0.001579s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000851s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001013s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017813s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000987s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001293s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000648s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004398s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001415s ]
+
+[ 2015-12-21T17:38:19+08:00 ] 127.0.0.1 /Jiuyework/index.php/User/user
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002604s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002880s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001446s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001904s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.024999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001027s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000951s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000795s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001577s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004992s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001462s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001607s ]
+
+[ 2015-12-21T17:38:21+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002357s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.003727s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.000922s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003878s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.001695s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.003901s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.003443s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001434s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002681s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002897s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.058022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058230s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001762s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000794s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000649s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004777s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001914s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002122s ]
+
+[ 2015-12-21T17:38:21+08:00 ] ERR: (ThinkException) 非法操作:templates
+[ 2015-12-21T17:39:32+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002748s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.004092s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' and u_pwd=22222222 ) LIMIT 1   [ RunTime:0.001763s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000833s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000999s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.017044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017200s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000662s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000709s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000452s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003008s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001129s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001249s ]
+
+[ 2015-12-21T17:39:33+08:00 ] 127.0.0.1 /Jiuyework/index.php/User/user
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002737s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002982s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000777s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000997s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018453s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000763s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000738s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000531s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000906s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003331s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001360s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001493s ]
+
+[ 2015-12-21T17:39:34+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/geren
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002215s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001504s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.004558s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004403s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.001566s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.020783s ]
+INFO: [ view_template ] --END-- [ RunTime:0.021025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  e_tel D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 111 行.
+NOTIC: [8] Undefined index:  e_add D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.062764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062957s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001443s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000820s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000451s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000865s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003994s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001282s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2015-12-21T17:40:39+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004747s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003622s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004263s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.003467s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.001121s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004434s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004632s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.170671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170920s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002269s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002019s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001758s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009045s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003050s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003227s ]
+
+[ 2015-12-21T17:40:42+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jine?id=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004824s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.003734s ]
+SQL: SELECT `mt_money` FROM `w_membertype` WHERE ( mt_id=6 ) LIMIT 1   [ RunTime:0.001326s ]
+
+[ 2015-12-21T17:41:01+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003741s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002682s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004310s ]
+SQL: INSERT INTO `w_member` (`m_tel`,`m_remarks`,`m_name`) VALUES ('13326343311','我就是饿哦 	\r\n                ','s13326343311') [ RunTime:0.001819s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003017s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003191s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.029390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029573s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002546s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002041s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.004519s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.003276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012898s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002792s ]
+
+[ 2015-12-21T17:41:03+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/geren
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004425s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004682s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002880s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.005261s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.001170s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003546s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.001258s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003441s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003634s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  e_tel D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 111 行.
+NOTIC: [8] Undefined index:  e_add D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.036963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037147s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002750s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002179s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001792s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009505s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002982s ]
+
+[ 2015-12-21T17:41:37+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.007240s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007496s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.006139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006437s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004371s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004727s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.001703s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005575s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005903s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.035422s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035610s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002960s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.003837s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001815s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011272s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002781s ]
+
+[ 2015-12-21T17:45:24+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004141s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.005048s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004387s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.001436s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002342s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002522s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032385s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001633s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002593s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001508s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007783s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002258s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002441s ]
+
+[ 2015-12-21T17:50:17+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002892s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003140s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002049s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.101710s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.005986s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.001176s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002212s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002350s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.040330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040510s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001664s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001467s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001487s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007057s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001917s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002066s ]
+
+[ 2015-12-21T17:50:18+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jine?id=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002135s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001387s ]
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004677s ]
+SQL: SELECT `mt_money` FROM `w_membertype` WHERE ( mt_id=6 ) LIMIT 1   [ RunTime:0.001269s ]
+
+[ 2015-12-21T17:50:23+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002745s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003572s ]
+
+[ 2015-12-21T17:52:11+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002048s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.005796s ]
+
+[ 2015-12-21T17:52:14+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006870s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001445s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003664s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004970s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.001461s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001033s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001222s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026798s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028006s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001356s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000769s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000475s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000931s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004340s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001916s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2015-12-21T17:52:16+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jine?id=1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002192s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002425s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.005456s ]
+SQL: SELECT `mt_money` FROM `w_membertype` WHERE ( mt_id=1 ) LIMIT 1   [ RunTime:0.000614s ]
+
+[ 2015-12-21T17:52:30+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002667s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002873s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004596s ]
+
+[ 2015-12-21T17:52:49+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002718s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002973s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001962s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004457s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.003696s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.001766s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002371s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002595s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.028444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028680s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001928s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001440s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001157s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006531s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001942s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002105s ]
+
+[ 2015-12-21T17:52:51+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jine?id=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001974s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002184s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004836s ]
+SQL: SELECT `mt_money` FROM `w_membertype` WHERE ( mt_id=6 ) LIMIT 1   [ RunTime:0.001318s ]
+
+[ 2015-12-21T17:52:57+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002706s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003049s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002225s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003462s ]
+SQL: INSERT INTO `w_member` (`mt_id`,`m_tel`,`m_remarks`,`m_name`) VALUES (6,'13326343317','                	阿大声道\r\n                ','s13326343311') [ RunTime:0.000503s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001396s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001527s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.018307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018479s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000717s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000723s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000450s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000889s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003154s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003104s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003312s ]
+
+[ 2015-12-21T17:52:58+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/geren
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002340s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002756s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001392s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.003478s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.001540s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003831s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.001096s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001621s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001788s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  e_tel D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 111 行.
+NOTIC: [8] Undefined index:  e_add D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.027168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027331s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000977s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000694s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000440s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000975s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003449s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001387s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2015-12-21T17:54:25+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003608s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003876s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002654s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.005168s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.003948s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.001350s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003376s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003571s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.031454s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031677s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002994s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002540s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002128s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010502s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002493s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002624s ]
+
+[ 2015-12-21T17:54:28+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jine?id=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004037s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002769s ]
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004126s ]
+SQL: SELECT `mt_money` FROM `w_membertype` WHERE ( mt_id=6 ) LIMIT 1   [ RunTime:0.001584s ]
+
+[ 2015-12-21T17:54:35+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003228s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002594s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004566s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004635s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.002249s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003717s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003877s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.033084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033256s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002171s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002480s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.003223s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010698s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002477s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002606s ]
+
+[ 2015-12-21T17:54:37+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jine?id=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003243s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003485s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002712s ]
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.003971s ]
+SQL: SELECT `mt_money` FROM `w_membertype` WHERE ( mt_id=6 ) LIMIT 1   [ RunTime:0.003034s ]
+
+[ 2015-12-21T17:54:43+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004090s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002631s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004494s ]
+SQL: INSERT INTO `w_member` (`mt_id`,`m_tel`,`m_remarks`,`m_name`) VALUES (6,'1212','                	\r\n             发顺丰   ','s13326343311') [ RunTime:0.001918s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.005417s ]
+INFO: [ view_template ] --END-- [ RunTime:0.005636s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.022643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022802s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002007s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.004032s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002238s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011388s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.004430s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004607s ]
+
+[ 2015-12-21T17:54:44+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/geren
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004611s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004830s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.004013s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003579s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.001291s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003544s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003698s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  e_tel D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 111 行.
+NOTIC: [8] Undefined index:  e_add D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.036488s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036641s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002878s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002091s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002062s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010476s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002911s ]
+
+[ 2015-12-21T17:55:12+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004369s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003685s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.004976s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 165 行.
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.004940s ]
+SQL: SELECT * FROM `w_membertype`  [ RunTime:0.002063s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003345s ]
+INFO: [ view_template ] --END-- [ RunTime:0.003548s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.051060s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051238s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002152s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002046s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002155s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.004307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011314s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002563s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002728s ]
+
+[ 2015-12-21T17:55:58+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jine?id=6
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003278s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003473s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002590s ]
+SQL: SHOW COLUMNS FROM `w_membertype` [ RunTime:0.005607s ]
+SQL: SELECT `mt_money` FROM `w_membertype` WHERE ( mt_id=6 ) LIMIT 1   [ RunTime:0.001247s ]
+
+[ 2015-12-21T17:56:02+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/huiyuan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003307s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003521s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002697s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.006838s ]
+SQL: INSERT INTO `w_member` (`mt_id`,`m_tel`,`m_remarks`,`m_name`) VALUES (6,'1323','                	\r\n         1额儿啊       ','s13326343311') [ RunTime:0.002248s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.004722s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004956s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.026175s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026395s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002056s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002167s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001749s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009089s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003294s ]
+
+[ 2015-12-21T17:56:03+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/geren
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.004480s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004702s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.003238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003514s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.005292s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.000998s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.003920s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.000959s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.003905s ]
+INFO: [ view_template ] --END-- [ RunTime:0.004057s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  e_tel D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 111 行.
+NOTIC: [8] Undefined index:  e_add D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.036203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036350s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.002493s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.002407s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.002097s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.002255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009685s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.002753s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002876s ]
+
+[ 2015-12-21T17:57:47+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/jianyi
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002044s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002247s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001634s ]
+SQL: SHOW COLUMNS FROM `w_advise` [ RunTime:0.004418s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 69 行.
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.110616s ]
+INFO: [ view_template ] --END-- [ RunTime:0.110804s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.067359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067574s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000794s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001109s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000506s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003929s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002551s ]
+
+[ 2015-12-21T19:31:50+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/smibao
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002670s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002912s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002003s ]
+SQL: SHOW COLUMNS FROM `w_mibao` [ RunTime:0.005142s ]
+SQL: SELECT * FROM `w_mibao` WHERE ( m_user='s13326343311' ) LIMIT 1   [ RunTime:0.001688s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.101583s ]
+INFO: [ view_template ] --END-- [ RunTime:0.101774s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.050403s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050686s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001643s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001909s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001317s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001745s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007909s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.003546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003825s ]
+
+[ 2015-12-21T19:31:54+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/umibao/id/2
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001946s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002125s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001592s ]
+NOTIC: [8] Undefined index:  sub D:\xampp\htdocs\Jiuyework\Index\Lib\Action\OnemanAction.class.php 第 406 行.
+SQL: SHOW COLUMNS FROM `w_mibao` [ RunTime:0.004771s ]
+SQL: SELECT * FROM `w_mibao` WHERE ( m_id=2 ) LIMIT 1   [ RunTime:0.001223s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001687s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001830s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.045503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045685s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000923s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000674s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000443s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003307s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001288s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001410s ]
+

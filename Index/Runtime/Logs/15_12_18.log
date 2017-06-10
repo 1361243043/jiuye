@@ -1,0 +1,363 @@
+[ 2015-12-18T08:30:15+08:00 ] 127.0.0.1 /Jiuyework/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006014s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.038526s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001632s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.030215s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.001402s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.034152s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.009717s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.043906s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.010179s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.020853s ]
+INFO: [ view_template ] --END-- [ RunTime:0.021112s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.177616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.177759s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.011945s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.017875s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001153s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032468s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001357s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001439s ]
+
+[ 2015-12-18T08:36:28+08:00 ] 127.0.0.1 /Jiuyework/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000952s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.002159s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001458s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.002111s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.001168s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.002232s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.001713s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.001917s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001389s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001261s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001348s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.032837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032923s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000927s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000640s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000529s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003026s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000815s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2015-12-18T08:43:50+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.116805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.116991s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001607s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.003090s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' and u_pwd=12345678 ) LIMIT 1   [ RunTime:0.000764s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001800s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001917s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.036612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036748s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001430s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001329s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000977s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005467s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001606s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001714s ]
+
+[ 2015-12-18T08:43:51+08:00 ] 127.0.0.1 /Jiuyework/index.php/User/user
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001488s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001644s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000624s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000772s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.012298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012463s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000624s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000581s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000414s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002600s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001040s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001137s ]
+
+[ 2015-12-18T08:43:52+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001513s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001678s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001043s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.003398s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.001356s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.002527s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000883s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.002534s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.001431s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.002686s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001365s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001303s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.043932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044097s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001409s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000969s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000402s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003841s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001392s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001536s ]
+
+[ 2015-12-18T08:43:52+08:00 ] ERR: (ThinkException) 非法操作:templates
+[ 2015-12-18T08:44:02+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.001895s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' and u_pwd=22222222 ) LIMIT 1   [ RunTime:0.000369s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000478s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000557s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007076s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000404s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000356s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000200s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001540s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000505s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-12-18T08:44:03+08:00 ] 127.0.0.1 /Jiuyework/index.php/User/user
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000348s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.008157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008284s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000351s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000367s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000248s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001594s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000726s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2015-12-18T08:44:05+08:00 ] 127.0.0.1 /Jiuyework/index.php/Oneman/geren
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001289s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001436s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.001506s ]
+SQL: SELECT * FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.001386s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.000257s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000925s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000988s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  e_tel D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 111 行.
+NOTIC: [8] Undefined index:  e_add D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\4a7cec757a25636aba2a80b33d0733b0.php 第 117 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.034629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034709s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000532s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000305s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000196s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001656s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2015-12-18T08:44:10+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/index/id/1
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000813s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000928s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.001629s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.001600s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.001893s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.001795s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.002477s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.001299s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000710s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000888s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023315s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023413s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000614s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000327s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000199s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001723s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000506s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-12-18T08:44:10+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/index/id/templates/default/js/index.js
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000943s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.001790s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='s13326343311' ) LIMIT 1   [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.001734s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='s13326343311' ) LIMIT 1   [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.002116s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.002421s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.000925s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000579s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000716s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.025967s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026082s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001173s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000600s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000321s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003041s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000847s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000942s ]
+
+[ 2015-12-18T08:44:16+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/tuichu
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000291s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.006986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007054s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000278s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000288s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000191s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001265s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000594s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2015-12-18T08:44:17+08:00 ] 127.0.0.1 /Jiuyework/index.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.000938s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.001708s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.001677s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000955s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.001864s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.002158s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.000876s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.000435s ]
+INFO: [ view_template ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.023603s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023735s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001002s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000409s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000217s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002356s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000723s ]
+
+[ 2015-12-18T08:44:17+08:00 ] ERR: (ThinkException) 非法操作:templates
+[ 2015-12-18T08:44:39+08:00 ] 127.0.0.1 /Jiuyework/index.php/Job/job
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001641s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001936s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [8] Undefined index:  name D:\xampp\htdocs\Jiuyework\Index\Lib\Action\JobAction.class.php 第 16 行.
+NOTIC: [8] Undefined variable: where D:\xampp\htdocs\Jiuyework\Index\Lib\Action\JobAction.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.002391s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `w_invite` LIMIT 1   [ RunTime:0.000936s ]
+SQL: SELECT * FROM `w_invite` WHERE ( 1 ) LIMIT 0,6   [ RunTime:0.000522s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.001600s ]
+INFO: [ view_template ] --END-- [ RunTime:0.001747s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Runtime\Cache\0af2512f3ba0ac40b1a05fa506bab800.php 第 86 行.
+INFO: Run ParseTemplate Behavior [ RunTime:0.040359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040494s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.000997s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000727s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000613s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003388s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001155s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001233s ]
+

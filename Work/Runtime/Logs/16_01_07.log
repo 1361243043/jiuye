@@ -1,0 +1,23 @@
+[ 2016-01-07T14:12:24+08:00 ] 127.0.0.1 /jiuye/hou.php/Index/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.102061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.102322s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.005040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005663s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.010518s ]
+INFO: [ view_template ] --END-- [ RunTime:0.010810s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.066903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067091s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001455s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.001716s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.001194s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.001558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006291s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001995s ]
+

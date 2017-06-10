@@ -1,0 +1,33 @@
+[ 2015-12-06T19:16:43+08:00 ] 127.0.0.1 /Jiuyework/qiantai.php/Index/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001874s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002053s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.011424s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.002680s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000707s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\Jiuyework\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.018873s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.010310s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.033940s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.009730s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.002756s ]
+INFO: [ view_template ] --END-- [ RunTime:0.002947s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.066016s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066185s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001434s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000737s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000455s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003889s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001181s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2015-12-06T19:16:43+08:00 ] ERR: (ThinkException) 非法操作:templates

@@ -1,0 +1,29 @@
+[ 2015-12-27T15:38:25+08:00 ] 127.0.0.1 /jiuye/
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `w_user` [ RunTime:0.027798s ]
+SQL: SELECT `u_nicheng` FROM `w_user` WHERE ( u_name='' ) LIMIT 1   [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `w_member` [ RunTime:0.043017s ]
+SQL: SELECT `m_shifou` FROM `w_member` WHERE ( m_name='' ) LIMIT 1   [ RunTime:0.000763s ]
+NOTIC: [8] Undefined variable: id D:\xampp\htdocs\jiuye\Index\Lib\Action\IndexAction.class.php 第 38 行.
+SQL: SHOW COLUMNS FROM `w_invite` [ RunTime:0.043184s ]
+SQL: SELECT * FROM `w_invite`  [ RunTime:0.013524s ]
+SQL: SHOW COLUMNS FROM `w_applyjob` [ RunTime:0.066247s ]
+SQL: SELECT * FROM `w_applyjob`  [ RunTime:0.009559s ]
+INFO: [ view_template ] --START--
+INFO: Run LocationTemplate Behavior [ RunTime:0.049014s ]
+INFO: [ view_template ] --END-- [ RunTime:0.049224s ]
+INFO: [ view_parse ] --START--
+INFO: Run ParseTemplate Behavior [ RunTime:0.147258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.147401s ]
+INFO: [ view_filter ] --START--
+INFO: Run ContentReplace Behavior [ RunTime:0.001027s ]
+INFO: Run TokenBuild Behavior [ RunTime:0.000699s ]
+INFO: Run WriteHtmlCache Behavior [ RunTime:0.000588s ]
+INFO: Run ShowRuntime Behavior [ RunTime:0.000796s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003273s ]
+INFO: [ view_end ] --START--
+INFO: Run ShowPageTrace Behavior [ RunTime:0.001080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
