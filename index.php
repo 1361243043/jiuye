@@ -2,7 +2,7 @@
 /*
  * 建立前台的入口文件
  * @data 2015/10/20
- * @author 高龙
+ * @author 汤永胜
  */
 	//给项目起名
 	define('APP_NAME','Index');
